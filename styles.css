@@ -127,7 +127,7 @@ h5 {
   display: none;
 }
 }
-@media only screen and (max-width:850px) {
+@media only screen and (max-width:800px) {
   body{
     overflow: scroll;
     overflow-x: hidden;
@@ -152,9 +152,10 @@ h5 {
 }
 .three {
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 100%;
+}
+.three > p{
+  text-align: center;
 }
 .img-div {
   height: 50vh;
